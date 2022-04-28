@@ -96,6 +96,28 @@ BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 ```
 When it's done, it's like this：
 ![输入图片说明](1651151654438.jpg)
+#### 3.Continue to complete the archiving of the simulator and MacOS
+Enter the following command into the terminal:
+
+```
+xcodebuild archive \
+-scheme CustomClenderPicker \
+-configuration Release \
+-destination 'generic/platform=iOS Simulator' \
+-archivePath './build/CustomClenderPicker.framework-iphonesimulator.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+```
+
+```
+xcodebuild archive \
+-scheme CustomClenderPicker \
+-configuration Release \
+-destination 'platform=macOS,arch=x86_64,variant=Mac Catalyst' \
+-archivePath './build/CustomClenderPicker.framework-catalyst.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+```
 
 ## Cocopods
 
