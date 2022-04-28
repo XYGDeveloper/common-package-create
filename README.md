@@ -21,7 +21,7 @@ Updating the Framework Access Level
 Open CalendarPickerViewController.swift. Make the class public by adding the public keyword to the class definition, like so:
 
 ```
- **public**  class CalendarPickerViewController: UIViewController {
+ public  class CalendarPickerViewController: UIViewController {
 
 ```
 Now CalendarPickerViewController is visible to any app file that imports the CalendarControl framework.
