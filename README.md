@@ -70,9 +70,10 @@ To support multiple architectures, like a simulator and devices, you had to comb
 Archiving Your Framework
 For this section, you’ll work with your old friend, Terminal. Woohoo!
 Open your terminal and navigate to the framework folder with the following command. Alternatively, you could drag your project folder to your terminal after the cd command:
+![输入图片说明](1651151274991.jpg)
 
 ```
-cd 
+cd /Users/xyg/Desktop/CustomClenderPicker
 ```
 
 ## Cocopods
