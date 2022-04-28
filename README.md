@@ -146,6 +146,13 @@ you need to set the build library for distribution of the framework project
 #### 9.Boooooom! You’ve now made your first XCFramework. and then give it to your partner to import, add and use
 
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-28%2019.52.21.png)
+
+```
+import CustomClenderPicker
+
+```
+#### 10.Display effect
+
 ## Cocopods
 
 
