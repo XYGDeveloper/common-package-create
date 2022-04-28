@@ -95,7 +95,7 @@ BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 
 ```
 When it's done, it's like this：
-
+![输入图片说明](1651151654438.jpg)
 
 ## Cocopods
 
