@@ -70,11 +70,32 @@ To support multiple architectures, like a simulator and devices, you had to comb
 Archiving Your Framework
 For this section, you’ll work with your old friend, Terminal. Woohoo!
 Open your terminal and navigate to the framework folder with the following command. Alternatively, you could drag your project folder to your terminal after the cd command:
+#### 1. Enter the root directory of the framework project file
 ![输入图片说明](1651151274991.jpg)
 
 ```
 cd /Users/xyg/Desktop/CustomClenderPicker
 ```
+#### 2. Next, start archiving your framework for the following targets:
+
+- iOS
+- Simulator
+- macOS
+
+Start with iOS. Enter the following command into the terminal:
+
+```
+xcodebuild archive \
+-scheme CustomClenderPicker \
+-configuration Release \
+-destination 'generic/platform=iOS' \
+-archivePath './build/CustomClenderPicker.framework-iphoneos.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+```
+When it's done, it's like this：
+
 
 ## Cocopods
 
