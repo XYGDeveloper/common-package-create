@@ -131,9 +131,17 @@ xcodebuild -create-xcframework \
 -framework './build/CustomClenderPicker.framework-catalyst.xcarchive/Products/Library/Frameworks/CustomClenderPicker.framework' \
 -output './build/CustomClenderPicker.xcframework'
 ```
-If this error occurs, you need to set the build library for distribution of the framework project
+If this error occurs：
+
+```
+No 'swiftinterface' files found within '/Users/xyg/Desktop/CustomClenderPicker/build/CustomClenderPicker.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/CustomClenderPicker.framework/Modules/CustomClenderPicker.swiftmodule'.
+```
+
+
+you need to set the build library for distribution of the framework project
  **在 Build Settings ~> Build Library for Distribution 设为YES** 
 ![输入图片说明](1651153258529.jpg)
+
 ## Cocopods
 
 
