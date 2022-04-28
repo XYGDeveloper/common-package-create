@@ -43,6 +43,8 @@ Note: You might wonder why you have to declare init as public. Apple explains th
 ![输入图片说明](1651146831569.jpg)
 #### 8.Compile the simulator and generate the framework under the simulator environment under products
 ![输入图片说明](1651147198393.jpg)
+#### 9.Through the compilation of the device machine, the framework under the device environment is generated under products
+![输入图片说明](1651147389600.jpg)
 Build and run. Now you get your CustomCalendarPicker.
 Congratulations! You now have a working stand-alone framework and an app that uses it!
 
