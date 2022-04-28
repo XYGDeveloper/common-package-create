@@ -152,7 +152,7 @@ import CustomClenderPicker
 
 ```
 #### 10.Display effect
-
+![输入图片说明](Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202022-04-28%20at%2020.43.29.png)
 ## Cocopods
 
 
