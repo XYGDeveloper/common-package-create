@@ -47,7 +47,8 @@ Note: You might wonder why you have to declare init as public. Apple explains th
 ![输入图片说明](1651147389600.jpg)
 Build and run. Now you get your CustomCalendarPicker.
 Congratulations! You now have a working stand-alone framework and an app that uses it!
-
+#### 10. View the architecture information supported by the framework of simulators and devices
+![输入图片说明](1651147745913.jpg)
 ## XCFramework
 
 ## Cocopods
