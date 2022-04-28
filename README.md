@@ -83,6 +83,7 @@ cd /Users/xyg/Desktop/CustomClenderPicker
 - macOS
 
 Start with iOS. Enter the following command into the terminal:
+#### 3. iOS device  xcodebuild
 
 ```
 xcodebuild archive \
@@ -96,7 +97,7 @@ BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 ```
 When it's done, it's like this：
 ![输入图片说明](1651151654438.jpg)
-#### 3.Continue to complete the archiving of the simulator and MacOS
+#### 4.Continue to complete the xcodebuild archive
 Enter the following command into the terminal:
 
 ```
@@ -108,7 +109,7 @@ xcodebuild archive \
 SKIP_INSTALL=NO \
 BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 ```
-
+#### 5. MacOS xcodebuild
 ```
 xcodebuild archive \
 -scheme CustomClenderPicker \
@@ -118,6 +119,8 @@ xcodebuild archive \
 SKIP_INSTALL=NO \
 BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 ```
+#### 6.As you can see in your finder and the following screenshot, you generate three different archives files from your framework.
+![输入图片说明](1651152359546.jpg)
 
 ## Cocopods
 
