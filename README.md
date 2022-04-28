@@ -41,6 +41,8 @@ CalendarPickerViewController.collectionView(_:layout:sizeForItemAt:)
 Note: You might wonder why you have to declare init as public. Apple explains this and other finer points of access control in their Access Control Documentation.
 #### 7. Edit target setting release
 ![输入图片说明](1651146831569.jpg)
+#### 8.Compile the simulator and generate the framework under the simulator environment under products
+![输入图片说明](1651147198393.jpg)
 Build and run. Now you get your CustomCalendarPicker.
 Congratulations! You now have a working stand-alone framework and an app that uses it!
 
