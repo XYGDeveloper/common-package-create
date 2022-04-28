@@ -143,7 +143,9 @@ you need to set the build library for distribution of the framework project
 ![输入图片说明](1651153258529.jpg)
 #### 8.Check the build folder to see what the XCFramework includes.
 ![输入图片说明](1651153517167.jpg)
+#### 9.Boooooom! You’ve now made your first XCFramework. and then give it to your partner to import, add and use
 
+![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-28%2019.52.21.png)
 ## Cocopods
 
 
