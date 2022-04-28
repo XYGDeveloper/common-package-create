@@ -50,8 +50,10 @@ Congratulations! You now have a working stand-alone framework and an app that us
 #### 10. View the architecture information supported by the framework of simulators and devices
 ![输入图片说明](1651147745913.jpg)
 ![输入图片说明](1651147657095.jpg)
-#### Remove the simulator arm64 and only retain x86_64
+#### 11.Remove the simulator arm64 and only retain x86_64
 ![输入图片说明](1651148621029.jpg)
+#### 12.Combine the simulator framework and the real equipment framework into a framework that supports both
+![输入图片说明](1651148896558.jpg)
 ## XCFramework
 
 ## Cocopods
