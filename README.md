@@ -64,6 +64,16 @@ import CustomClenderPicker
 #### 14.Display effect
 ![输入图片说明](Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202022-04-28%20at%2020.43.29.png)
 ## XCFramework
+You might have heard about XCFramework during WWDC 2019. Yes, you’re right: This is the name of the binary framework you can generate with Xcode.
+Before 2019, you only had one opportunity to make your own binary framework: Universal Static Library, also known as Fat Framework.
+To support multiple architectures, like a simulator and devices, you had to combine them under one library in the fat framework. However, after this article, your frameworks don’t have to be fat anymore.
+Archiving Your Framework
+For this section, you’ll work with your old friend, Terminal. Woohoo!
+Open your terminal and navigate to the framework folder with the following command. Alternatively, you could drag your project folder to your terminal after the cd command:
+
+```
+cd 
+```
 
 ## Cocopods
 
