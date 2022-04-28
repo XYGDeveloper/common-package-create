@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CustomClenderPicker"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of CustomClenderPicker."
 
   # This description is used to generate tags and improve search results.
@@ -107,7 +107,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
-    spec.vendored_frameworks = "EventTrackSDK.framework"
+    spec.vendored_frameworks = "CustomClenderPicker.xcframework"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
