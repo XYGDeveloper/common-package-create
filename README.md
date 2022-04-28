@@ -9,6 +9,8 @@
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-28%20%E4%B8%8B%E5%8D%885.22.07.png)
 #### 4.Select your project in the Project navigator and choose CalendarControl in Targets. Open the Build Settings. Then set Build Libraries for Distribution to yes. This produces a module interface file which shows your public API when someone jumps to definition of your module in Xcode.
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-28%20%E4%B8%8B%E5%8D%885.24.48.png)
+#### 5.Build the framework project. Make sure you get Build Succeeded with no build warnings or errors.
+
 ## XCFramework
 
 ## Cocopods
