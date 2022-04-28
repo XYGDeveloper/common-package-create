@@ -54,6 +54,14 @@ Congratulations! You now have a working stand-alone framework and an app that us
 ![输入图片说明](1651148621029.jpg)
 #### 12.Combine the simulator framework and the real equipment framework into a framework that supports both
 ![输入图片说明](1651148896558.jpg)
+#### 13.congratulations! The framework is finished, and then give it to your partner to import, add and use
+![输入图片说明](1651149568965.jpg)
+
+```
+import CustomClenderPicker
+
+```
+
 ## XCFramework
 
 ## Cocopods
