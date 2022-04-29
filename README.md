@@ -219,6 +219,12 @@ pod trunk register xyg15243228311@163.com 'xiyg' --description='CustomClenderPic
 pod trunk me
 ```
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8811.11.33.png)
+#### publish to cocopods
+
+```
+pod trunk push CustomClenderPicker.podspec
+```
+![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8811.16.06.png)
 ## Swift Package Manager
 Distributing CustomClenderPicker.XCFramework as a Swift Package
 At WWDC 2020, Apple announced that you can easily distribute your XCFramework within Swift Packages. Isn’t that awesome?
