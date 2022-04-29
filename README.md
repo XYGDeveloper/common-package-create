@@ -208,6 +208,8 @@ let package = Package(
 #### 6.Boooooom! You’ve now made your first swift package. and then give it to your partner to import, add and use
 #### 7. give it to your partner to use file->add package ,input:https://gitee.com/xiyg/custom-clender-picker.git
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8810.02.20.png)
+#### 8. import to your project to use
+![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8810.05.23.png)
 ## Cartthage
 
 
