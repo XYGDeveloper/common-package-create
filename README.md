@@ -254,6 +254,7 @@ At WWDC 2020, Apple announced that you can easily distribute your XCFramework wi
 Note: If you’re not familiar with Swift Packages or Swift Package Manager you can find out more by reading Swift Package Manager for iOS.
 You should have a Swift Package for distributing your XCFramework. You’ll create one in the next section. Then you can share your fancy framework by publishing it on GitHub.
 Preparing the Swift Package
+Note: If you’re not familiar with Swift Packages or Swift Package Manager you can find out more by reading [Swift Package Manager for iOS](https://www.raywenderlich.com/7242045-swift-package-manager-for-ios).
 #### 1. add Package.swift file
 
 ```
@@ -303,5 +304,6 @@ let package = Package(
 #### 8. import to your project to use
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8810.05.23.png)
 ## Cartthage
+Carthage 是一款 iOS 项目依赖管理工具，与 Cocoapods 有着相似的功能，可以帮助你方便的管理第三方依赖，它会把三方依赖编译成 framework ，以 framework 的形式将三方依赖加入到项目中进行使用和管理
 
 
