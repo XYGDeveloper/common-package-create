@@ -206,7 +206,19 @@ pod spec lint CustomClenderPicker.podspec --allow-warnings
 ```
 #### 5. if validate passed
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8810.58.41.png)
+#### 6.register and upload tococopods
 
+```
+pod trunk register xyg15243228311@163.com 'xiyg' --description='CustomClenderPicker is a tool'
+```
+#### 7.open you email and click links
+
+#### 8.scan validate email is secures or not
+
+```
+pod trunk me
+```
+![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8811.11.33.png)
 ## Swift Package Manager
 Distributing CustomClenderPicker.XCFramework as a Swift Package
 At WWDC 2020, Apple announced that you can easily distribute your XCFramework within Swift Packages. Isn’t that awesome?
