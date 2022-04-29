@@ -201,6 +201,10 @@ let package = Package(
 ```
 #### 3.create repostity on gitee.
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%889.51.46.png)
+#### 4.clone respotity to sourcetree add package file to gitee
+![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%889.56.37.png)
+#### 5.commit and set tag 1.0.0
+
 ## Cartthage
 
 
