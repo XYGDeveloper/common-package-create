@@ -225,6 +225,29 @@ pod trunk me
 pod trunk push CustomClenderPicker.podspec
 ```
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8811.16.06.png)
+#### 9.congratulations! your cocopods  is finished, and then give it to your partner to import, add and use
+
+```
+pod search CustomClenderPicker
+```
+if occur error like this:
+
+```
+ ~  pod search CustomClenderPicker
+[!] Unable to find a pod with name, author, summary, or description matching `CustomClenderPicker`
+```
+#### 10.open terminal input following command in the terminal:
+
+```
+rm ~/Library/Caches/CocoaPods/search_index.json
+```
+then:
+
+```
+pod setup
+pod search CustomClenderPicker
+```
+
 ## Swift Package Manager
 Distributing CustomClenderPicker.XCFramework as a Swift Package
 At WWDC 2020, Apple announced that you can easily distribute your XCFramework within Swift Packages. Isn’t that awesome?
