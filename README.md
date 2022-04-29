@@ -305,5 +305,5 @@ let package = Package(
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8810.05.23.png)
 ## Cartthage
 Carthage 是一款 iOS 项目依赖管理工具，与 Cocoapods 有着相似的功能，可以帮助你方便的管理第三方依赖，它会把三方依赖编译成 framework ，以 framework 的形式将三方依赖加入到项目中进行使用和管理
-
+[如何使用carthage](https://www.raywenderlich.com/7649117-carthage-tutorial-getting-started#toc-anchor-009)
 
