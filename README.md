@@ -204,6 +204,9 @@ let package = Package(
 #### 4.clone respotity to sourcetree add package file to gitee
 ![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%889.56.37.png)
 #### 5.commit and set tag 1.0.0
+![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%889.58.55.png)
+#### 6.Boooooom! You’ve now made your first swift package. and then give it to your partner to import, add and use
+#### 7. give it to your partner to use file->add package ,input:https://gitee.com/xiyg/custom-clender-picker.git
 
 ## Cartthage
 
