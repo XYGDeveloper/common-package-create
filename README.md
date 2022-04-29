@@ -154,7 +154,58 @@ import CustomClenderPicker
 #### 10.Display effect
 ![输入图片说明](Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202022-04-28%20at%2020.43.29.png)
 ## Cocopods
+Distributing CustomClenderPicker.XCFramework as a cocoapods
+CocoaPods is a bit more strict and requires you to keep the built binaries with the Podspec
+#### 1.create CustomClenderPicker.podspec file
 
+```
+pod spec create CustomClenderPicker
+```
+#### 2. fill content of podspec
+At the root of the project, create the following CustomClenderPicker.podspec. In this spec we're not publishing actual code, so we don't have to specify which files are applicable. Instead, we must use the vendored_frameworks property to indicate which XCFramework(s) need to be published.
+```
+Pod::Spec.new do |spec|
+  spec.name               = "CustomClenderPicker"
+  spec.version            = "1.0.2"
+  spec.summary            = "CustomClenderPicker Library for iOS apps"
+  spec.description        = "CustomClenderPicker Library for iOS apps. time picker to select time"
+  spec.homepage           = "https://gitee.com/xiyg/projects"
+  spec.documentation_url  = "https://gitee.com/xiyg/custom-clender-picker"
+  spec.license            = { :type => "MIT" }
+  spec.author             = { "xiyg" => "xyg15243228311@163.com" }
+  spec.source             = { :git => 'https://gitee.com/xiyg/custom-clender-picker.git', :tag => "#{spec.version}" }
+  spec.swift_version      = "5.3"
+
+  # Supported deployment targets
+  spec.ios.deployment_target  = "13.0"
+
+  # Published binaries
+  spec.vendored_frameworks = "Sources/CustomClenderPicker.xcframework"
+  # spec.dependency 'PromisesSwift', '1.2.8' # Third Party Dependency
+
+end
+```
+#### 3. commit and set tag 1.0.0
+
+```
+git add .
+
+git commit -m ""
+
+git push
+
+git tag "0.0.1"
+
+git push --tags
+```
+
+#### 4. validate .podspec upload to remote repo
+
+```
+pod spec lint CustomClenderPicker.podspec --allow-warnings
+```
+#### 5. if validate passed
+![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%8810.58.41.png)
 
 ## Swift Package Manager
 Distributing CustomClenderPicker.XCFramework as a Swift Package
