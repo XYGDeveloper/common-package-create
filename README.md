@@ -157,7 +157,50 @@ import CustomClenderPicker
 
 
 ## Swift Package Manager
+Distributing CustomClenderPicker.XCFramework as a Swift Package
+At WWDC 2020, Apple announced that you can easily distribute your XCFramework within Swift Packages. Isn’t that awesome?
+Note: If you’re not familiar with Swift Packages or Swift Package Manager you can find out more by reading Swift Package Manager for iOS.
+You should have a Swift Package for distributing your XCFramework. You’ll create one in the next section. Then you can share your fancy framework by publishing it on GitHub.
+Preparing the Swift Package
+#### 1. add Package.swift file
 
+```
+import PackageDescription
+
+let package = Package(
+    name: "CustomClenderPicker",
+    platforms: [
+      .macOS(.v10_15), .iOS(.v14), .tvOS(.v14)
+    ],
+
+    products: [
+        // Products define the executables and libraries a package produces, and make them visible to other packages.
+        .library(
+            name: "CustomClenderPicker",
+            targets: ["CustomClenderPicker"]),
+    ],
+   
+    targets: [
+      .binaryTarget(
+        name: "CustomClenderPicker",
+        path: "./Sources/CustomClenderPicker.xcframework")
+    ]
+
+)
+
+```
+#### 2. mkdir dir Sources and  copy CustomClenderPicker.xcframework to Sources
+```
+.
+├── LICENSE
+├── Package.swift
+├── README.en.md
+├── README.md
+└── Sources
+    └── CustomClenderPicker.xcframework
+```
+#### 3.create repostity on gitee.
+![输入图片说明](%E6%88%AA%E5%B1%8F2022-04-29%20%E4%B8%8A%E5%8D%889.51.46.png)
 ## Cartthage
 
 
